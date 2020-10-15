@@ -1,14 +1,14 @@
 {
-  "name": "my-plugin",
+  "name": "test",
   "description": "",
   "version": "0.1.0",
   "engines": {
     "sketch": ">=49.0"
   },
   "skpm": {
-    "name": "my-plugin",
+    "name": "test",
     "manifest": "src/manifest.json",
-    "main": "my-plugin.sketchplugin",
+    "main": "test.sketchplugin",
     "assets": [
       "assets/**/*"
     ],
@@ -22,5 +22,6 @@
   },
   "devDependencies": {
     "@skpm/builder": "^0.7.0"
-  }
+  },
+  "author": "hosamelshazly92 <hosamelshazly92@gmail.com>"
 }
