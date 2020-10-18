@@ -1,10 +1,10 @@
-# test
+# my_plugin
 
 ## Installation
 
-- [Download](../../releases/latest/download/test.sketchplugin.zip) the latest release of the plugin
+- [Download](../../releases/latest/download/my_plugin.sketchplugin.zip) the latest release of the plugin
 - Un-zip
-- Double-click on test.sketchplugin
+- Double-click on my_plugin.sketchplugin
 
 ## Development Guide
 

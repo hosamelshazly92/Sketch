@@ -4,20 +4,20 @@
   "commands": [
     {
       "name": "my-command",
-      "identifier": "test.my-command-identifier",
+      "identifier": "my_plugin.my-command-identifier",
       "script": "__my-command.js"
     }
   ],
   "menu": {
-    "title": "test",
+    "title": "my_plugin",
     "items": [
-      "test.my-command-identifier"
+      "my_plugin.my-command-identifier"
     ]
   },
   "version": "0.1.0",
   "description": "",
-  "name": "test",
-  "identifier": "test",
+  "name": "my_plugin",
+  "identifier": "my_plugin",
   "disableCocoaScriptPreprocessor": true,
   "appcast": "https://raw.githubusercontent.com//master/.appcast.xml",
   "author": "hosamelshazly92",

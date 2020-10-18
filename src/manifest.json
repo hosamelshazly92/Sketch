@@ -4,14 +4,14 @@
   "commands": [
     {
       "name": "my-command",
-      "identifier": "test.my-command-identifier",
+      "identifier": "my_plugin.my-command-identifier",
       "script": "./my-command.js"
     }
   ],
   "menu": {
-    "title": "test",
+    "title": "my_plugin",
     "items": [
-      "test.my-command-identifier"
+      "my_plugin.my-command-identifier"
     ]
   }
 }

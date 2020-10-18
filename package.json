@@ -1,14 +1,14 @@
 {
-  "name": "test",
+  "name": "my_plugin",
   "description": "",
   "version": "0.1.0",
   "engines": {
     "sketch": ">=49.0"
   },
   "skpm": {
-    "name": "test",
+    "name": "my_plugin",
     "manifest": "src/manifest.json",
-    "main": "test.sketchplugin",
+    "main": "my_plugin.sketchplugin",
     "assets": [
       "assets/**/*"
     ],
