@@ -3,7 +3,7 @@
   "icon": "icon.png",
   "commands": [
     {
-      "name": "my-command",
+      "name": "message",
       "identifier": "sketch_message.my-command-identifier",
       "script": "./my-command.js"
     }
