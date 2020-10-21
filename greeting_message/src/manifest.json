@@ -6,6 +6,17 @@
       "name": "my-command",
       "identifier": "greeting_message.my-command-identifier",
       "script": "./my-command.js"
+    },
+    {
+      "script" : "./my-action-listener.js",
+      "name" : "My Action Listener",
+      "handlers" : {
+        "run" : "onRun",
+        "actions": {
+          "OpenDocument": "onOpenDocument"
+        }
+      },
+      "identifier" : "my-action-listener-identifier"
     }
   ],
   "menu": {
