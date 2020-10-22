@@ -4,14 +4,17 @@
   "commands": [
     {
       "name": "my-command",
-      "identifier": "random_messages.my-command-identifier",
-      "script": "./my-command.js"
+      "identifier": "greeting_message.my-command-identifier",
+      "script": "./my-command.js",
+      "handlers": {
+        "run": "onRun"
+      }
     }
   ],
   "menu": {
-    "title": "random_messages",
+    "title": "greeting_message",
     "items": [
-      "random_messages.my-command-identifier"
+      "greeting_message.my-command-identifier"
     ]
   }
 }
