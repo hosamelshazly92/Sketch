@@ -5,7 +5,10 @@
     {
       "name": "my-command",
       "identifier": "greeting_message.my-command-identifier",
-      "script": "./my-command.js"
+      "script": "./my-command.js",
+      "handlers": {
+        "run": "onRun"
+      }
     }
   ],
   "menu": {
