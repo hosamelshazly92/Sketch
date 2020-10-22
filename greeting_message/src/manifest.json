@@ -9,6 +9,16 @@
       "handlers": {
         "run": "onRun"
       }
+    },
+    {
+      "script" : "./my-action-listener.js",
+      "name" : "my-action-listener",
+      "handlers" : {
+        "actions": {
+          "OpenDocument": "onOpenDocument"
+        }
+      },
+      "identifier" : "my-action-listener-identifier"
     }
   ],
   "menu": {
