@@ -3,22 +3,15 @@
   "icon": "icon.png",
   "commands": [
     {
-      "name": "my-command",
-      "identifier": "greeting_message.my-command-identifier",
-      "script": "./my-command.js",
+      "name": "greeting",
+      "identifier": "com.bohemiancoding.sketch.runscriptidentifier",
+      "script": "./script.cocoascript",
       "handlers": {
-        "run": "onRun"
-      }
-    },
-    {
-      "script" : "./my-action-listener.js",
-      "name" : "my-action-listener",
-      "handlers" : {
+        "run": "onRun",
         "actions": {
           "OpenDocument": "onOpenDocument"
         }
-      },
-      "identifier" : "my-action-listener-identifier"
+      }
     }
   ],
   "menu": {
