@@ -3,13 +3,13 @@
   "icon": "icon.png",
   "commands": [
     {
-      "name": "alert",
+      "name": "Alert",
       "identifier": "alert.my-command-identifier",
       "script": "./my-command.js"
     }
   ],
   "menu": {
-    "title": "alert",
+    "title": "Alert",
     "items": [
       "alert.my-command-identifier"
     ]
